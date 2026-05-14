@@ -1,0 +1,217 @@
+.top{
+    display:block;
+    background-color: rgb(42, 8, 8);
+    color:rgb(254, 254, 254);
+    padding:10px;
+    margin:0px;
+    height:100px;
+    width: 100%;
+    text-align: center;
+    
+}
+.h1{
+    font-family: 'Playfair Display', serif;
+    display: inline-block;
+    font-size: 55px;
+    padding:0;
+    margin: 0;
+}
+.navi{
+    background-color: rgb(27, 4, 42); 
+    height:100px;
+    width: 100%;
+    margin:0;
+    padding:5px 10px;
+    
+}
+div a{
+    text-decoration:none;
+    margin-right:10px;
+    margin-left:20px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 25px;
+    color:rgb(255, 255, 255);
+}
+div a:hover{
+    text-decoration:overline;
+    color: rgb(250, 2, 246);
+    font-size: 20px;
+}
+.b{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(0, 0, 0);
+}
+.slider{
+    width:100vw;
+    height:350px;
+    overflow: hidden;
+}
+.slider img{
+    display: flex;
+    flex-grow:100;
+    width:100%;
+    height:350px;
+    object-fit: contain;
+}
+.f{
+    background-color: rgb(27, 4, 42); 
+    color:rgb(255, 255, 255);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height:95px;
+    width: 100%;
+    margin:0;
+    padding:5px 10px;
+}
+.m{
+    display: flex;
+    justify-content:space-around;
+    color: rgb(128, 152, 174);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style:bold;
+    font-size: 50px;
+    padding: 10px;
+}
+.bg{
+    display: block;
+    opacity: 33%;
+    padding:0px;
+    margin:0px;
+    height:100%;
+    width: 100%;
+}
+.l{
+    background-color: rgb(42, 8, 8);
+    color: aliceblue;
+}
+.bt{
+    background-color: rgb(101, 106, 106);
+    
+}
+.n{
+    color: rgb(241, 241, 242);
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align:center;
+    font-size: 35px;
+    padding: 5px;
+}
+.s{
+    color: rgb(148, 148, 158);
+    text-decoration: none;
+    font-family: cursive;
+    font-size:65px;
+
+}
+ /* *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial;
+        }*/
+.O{
+text-align: center;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size:50px;
+font-weight: 200;
+color: rgb(161, 158, 155);
+padding: 10px;
+}
+
+        .products-container{
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+        }
+
+        /* Product Card */
+
+        .card{
+            background-color: rgb(255, 179, 179);
+            width: 250px;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+            text-align: center;
+            transition: 0.3s;
+        }
+
+        .card:hover{
+            background-color: rgb(198, 232, 76);
+            transform: translateY(-40px);
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+
+        .card img{
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+        
+        }
+
+        .card h2{
+            margin-top: 15px;
+            color: #222;
+        }
+
+        .card p{
+            margin-top: 10px;
+            color: rgb(172, 10, 10);
+        }
+
+        .price{
+            margin-top: 10px;
+            font-size: 20px;
+            color: green;
+            font-weight: bold;
+        }
+
+        .btn{
+            margin-top: 15px;
+            padding: 10px 20px;
+            border: none;
+            background-color: black;
+            color: white;
+            border-radius: 5px;
+            cursor:pointer;
+        }
+
+        .btn:hover{
+            background-color: #444;
+        }
+        .amt{
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 75px;
+            color: aqua;
+        }
+.op{
+    color: #e1dada;
+    text-align: center;
+    font-size: 45px;
+    padding: 0px;
+    padding-bottom:10px;
+    margin: 0px;
+}
+.ip{
+    font-size: 33px;
+    color: rgb(156, 165, 165);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.p{
+     color: white;
+     font-family:Georgia, 'Times New Roman', Times, serif;
+     font-size: 18px;
+    text-align:left;
+        }
+.x{
+    font-size: 35px;
+    color: beige;
+    text-align: center;
+}
+.center{
+
+    color: antiquewhite;
+    text-align: center;
+}
