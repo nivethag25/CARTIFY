@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products Page</title>
+
+  <style>
+   .search-box{
+      text-align: center;
+      margin: 20px;
+    }
+
+    .search-box input{
+      width: 300px;
+      padding: 10px;
+      font-size: 16px;
+      border: 2px solid #c3d062;
+      border-radius: 5px;
+    }
+
+    .products-container{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .product{
+      background-color: rgb(203, 86, 224);
+      width: 300px;
+      height: 300px;
+      padding: 15px;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0px 2px 8px rgba(0,0,0,0.2);
+    }
+
+    .product img{
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    .product h3{
+      margin: 10px 0;
+    }
+
+    .product p{
+      color: green;
+      font-weight: bold;
+    }
+    .product h2{
+      color: rgb(27, 9, 60);
+      font-weight: bold;
+    }
+  </style>
+   <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+    <body class="b">
+        <div class="top">
+            <h1  class="h1">CARTIFY</h1>
+            </div>
+          <div class="navi">
+            
+               <h1>  <a href="home.html"> Home 🏠</a>
+                <a href="Products.html"> Product🏪</a>
+                <a href="purchase.html">PURCHASE 💰🛒</a>
+                <a href="contact.html">Contact&Review 📲</a>
+               <a href="about.html">ABOUT&FAQ's🏬</a></h1>
+              </h1>
+            </div>
+
+  <!-- Search Box -->
+  <div class="search-box">
+    <input type="text" id="searchInput" placeholder="Search product..." onkeyup="searchProduct()">
+  </div>
+
+  <!-- Products -->
+  <div class="products-container" id="productList">
+    <div class="product">
+      <img src="https://tse2.mm.bing.net/th/id/OIP.ZSPYFaG_gmQwO-eqa3pJUwHaE8?pid=Api&P=0&h=180" alt="Laptop">
+      <h3>Laptop</h3>
+      <h2>MAC OS</h2>
+      <p>₹500000</p>
+    </div>
+     <div class="product">
+      <img src="https://tse4.mm.bing.net/th/id/OIP.OIzoYfpiInYAX23bujgTWQHaFw?pid=Api&P=0&h=180" alt="Laptop">
+      <h3>Laptop</h3>
+      <h2>lenova</h2>
+      <p>₹35000</p>
+    </div>
+     <div class="product">
+      <img src="https://tse2.mm.bing.net/th/id/OIP.9tlU4apM_VEBlbXJ0u8JugHaFk?pid=Api&P=0&h=180" alt="Laptop">
+      <h3>Laptop</h3>
+      <h2>hp</h2>
+      <p>₹30000</p>
+    </div>
+      <div class="product">
+      <img src="https://tse2.mm.bing.net/th/id/OIP.5Pajk7tdsf035WQCTiEbxwHaE8?pid=Api&P=0&h=180" alt="Laptop">
+      <h3>Laptop</h3>
+      <h2>DELL</h2>
+      <p>₹80000</p>
+    </div>
+      <div class="product">
+      <img src="https://tse2.mm.bing.net/th/id/OIP.RAmJm_ZTjg0BcS853RA6KAHaFb?pid=Api&P=0&h=180" alt="Laptop">
+      <h3>Laptop</h3>
+      <h2>ACER</h2>
+      <p>₹65000</p>
+    </div>
+<!--mobiless-->
+    <div class="product">
+      <img src="https://tse2.mm.bing.net/th/id/OIP.XIOgMeMEZpO7BR3sVyKbMgHaCX?pid=Api&P=0&h=180" alt="Mobile">
+      <h3>Mobile</h3>
+      <h2>VIVO Y35</h2>
+      <p>₹20000</p>
+    </div>
+     <div class="product">
+      <img src="https://tse1.mm.bing.net/th/id/OIP.gxlm86_qfv9VSjNpD8yhlAHaHa?pid=Api&P=0&h=180" alt="Mobile">
+      <h3>Mobile</h3>
+      <h2>OPPO A12 PRO</h2>
+      <p>₹35000</p>
+    </div>
+ <div class="product">
+      <img src="https://tse1.mm.bing.net/th/id/OIP.mx5olrUzg3qJ_rzXalniMwHaDs?pid=Api&P=0&h=180" alt="Mobile">
+      <h3>Mobile</h3>
+      <h2>SAMSUNG DIGI PRO</h2>
+      <p>₹44000</p>
+    </div>
+ <div class="product">
+      <img src="https://www.apple.com/newsroom/images/2024/09/apple-debuts-iphone-16-pro-and-iphone-16-pro-max/article/Apple-iPhone-16-Pro-finish-lineup-240909_big.jpg.large.jpg" alt="MOBILE">
+      <h3>Mobile</h3>
+      <h2>APPLE IOS 15 max</h2>
+      <p>₹1500000</p>
+    </div>
+ <div class="product">
+      <img src="https://tse3.mm.bing.net/th/id/OIP.jh3rOeT4ay6ZI6hhGt6q8gHaDt?pid=Api&P=0&h=180" alt="MOBILE">
+      <h3>Mobile</h3>
+      <h2>REALME</h2>
+      <p>₹43000</p>
+    </div>
+<!--headphones--> 
+    <div class="product">
+      <img src="https://images.nexusapp.co/assets/43/dc/64/171631953.jpg" alt="HEADPHONES">
+      <h3>Headphones</h3>
+      <h2>BLUETOOTH</h2>
+      <p>₹2000</p>
+    </div>
+    <div class="product">
+      <img src="https://tse1.mm.bing.net/th/id/OIP.l1E4L5-73K0SRV2QIWozEAHaHa?pid=Api&P=0&h=180" alt="Headphones">
+      <h3>Headphones</h3>
+      <h2>WIRED PHONES</h2>
+      <p>₹350</p>
+    </div>
+    <div class="product">
+      <img src="https://tse4.mm.bing.net/th/id/OIP.JMqzYWSXxalLDOK6kzLcLAHaHa?pid=Api&P=0&h=180" alt="Headphones">
+      <h3>Headphones</h3>
+      <h2>HEADSETS</h2>
+      <p>₹3500</p>
+    </div>
+<!--watches-->
+    <div class="product">
+      <img src="https://tse3.mm.bing.net/th/id/OIP.VEL_EXffhvnb0S4AIY7lAQHaEv?pid=Api&P=0&h=180" alt="Watch">
+      <h3>Watch</h3>
+      <h2>ROLEX</h2>
+      <p>₹8000</p>
+    </div>
+ <div class="product">
+      <img src="https://tse4.mm.bing.net/th/id/OIP.RbHWAChZ-IrXbeRJApL3-gHaEK?pid=Api&P=0&h=180" alt="Watch">
+      <h3>Watch</h3>
+      <h2>SMART WATCHES</h2>
+      <p>₹2500</p>
+    </div>
+     <div class="product">
+      <img src="https://i.pinimg.com/originals/50/4f/93/504f930257fa9739046cb00b3d0dedd6.jpg" alt="Watch">
+      <h3>Watch</h3>
+      <h2>AESTHETIC MODEL</h2>
+      <p>₹700</p>
+    </div>
+    <!--HOME -->
+      <div class="product">
+      <img src="https://tse3.mm.bing.net/th/id/OIP.QIW9PjsYnOqLrgRSUnKpuwHaGl?pid=Api&P=0&h=180" >
+      <h3>HOME appliances</h3>
+      <h2>SMART TV</h2>
+      <p>₹36000</p>
+    </div>
+      <div class="product">
+      <img src="https://s3b.cashify.in/gpro/uploads/2022/08/27231131/Best-LG-Washing-Machines-In-India.jpg">
+      <h3>HOME appliances</h3>
+      <h2>WASHING MACHINE</h2>
+      <p>₹12000</p>
+    </div>
+      <div class="product">
+      <img src="https://tse3.mm.bing.net/th/id/OIP.YDcQliDSoHYnOHv-1GkFJAHaFj?pid=Api&P=0&h=180" >
+      <h3>HOME appliances</h3>
+      <h2>AIR CONDITIONER</h2>
+      <p>₹34000</p>
+    </div>
+      <div class="product">
+      <img src="https://static.vecteezy.com/system/resources/previews/024/570/332/large_2x/refrigerator-full-of-healthy-food-fruit-and-vegetables-horizontal-an-opened-fridge-full-of-fresh-fruits-and-vegetables-ai-generated-free-photo.jpg">
+      <h3>HOME appliances</h3>
+      <h2>FRIDGE</h2>
+      <p>₹23000</p>
+    </div>
+      <div class="product">
+      <img src="https://tse4.mm.bing.net/th/id/OIP.lhPE4YDL5Hh3oFzRcDHWfgHaEK?pid=Api&P=0&h=180">
+      <h3>HOME appliances</h3>
+      <h2>KITCHE GADGETS</h2>
+      <p>₹3400(WITH COMBO)</p>
+    </div>
+      <div class="product">
+      <img src="https://i5.walmartimages.com/seo/Dextrus-60-inch-Modern-Ceiling-Fan-Light-Remote-DC-Fanlight-Livingroom-Bedroom-8-Blades-Reverse-Airflow-6-Speeds-3-Color-Temperatures-Black_c2b16b12-693c-4be1-be67-17881e1b27c4.6b9848d71cf9c3f3562cf9c2f5205f27.jpeg">
+      <h3>HOME appliances</h3>
+      <h2>FAN</h2>
+      <p>₹700</p>
+    </div>
+
+    <div class="product">
+      <img src="https://tse1.mm.bing.net/th?id=OIF.0KmR8j4%2bdcBO3vfT31Sbjw&pid=Api&P=0&h=180">
+      <h3>HOME appliances</h3>
+      <h2>chairs</h2>
+      <p>₹2000</p>
+    </div>
+<div class="product">
+      <img src="https://www.thespruce.com/thmb/wf47Z_AxII1fCUDyHGXSwMV2zsg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/file-789e663e5cc449e3adc494cb6044c52e.jpeg">
+      <h3>HOME APPLIANCES</h3>
+      <h2>WALL DECOR</h2>
+      <p>₹500</p>
+    </div>
+<!--makeup-->
+<div class="product">
+      <img src="https://media6.ppl-media.com/tr:h-750,w-750,c-at_max,dpr-2/static/img/product/368587/faces-canada-diwali-makeup-kit_1_display_1698731809_bcb020b1.jpg">
+      <h3>MAKEUP Products</h3>
+      <h2>Facescanada</h2>
+      <p>₹1000</p>
+    </div>
+<div class="product">
+      <img src="https://i.pinimg.com/originals/71/4d/c3/714dc33117fb135520c96b73398fc07c.jpg">
+      <h3>MAKEUP PRODUCTS</h3>
+      <h2>LAKME</h2>
+      <p>₹450</p>
+    </div>
+    <div class="product">
+      <img src="https://i.ytimg.com/vi/ubn00Q_e79c/maxresdefault.jpg">
+      <h3>MAKEUP Products</h3>
+      <h2>MAYBELLINE</h2>
+      <p>₹5600</p>
+    </div>
+<div class="product">
+      <img src="http://lotshop.pk/cdn/shop/collections/huda-beauty-2408999.png?v=1756389466">
+      <h3>MAKEUP PRODUCTS</h3>
+      <h2>HUDA BEAUTY</h2>
+      <p>₹8999</p>
+    </div>
+    <!---dressess-->
+    <div class="product">
+      <img src="https://tse4.mm.bing.net/th/id/OIP.0VzzqbuTS7Tl4FDFpEhQWAHaFj?pid=Api&P=0&h=180">
+      <h3>DRESSESS
+      <h2>pants</h2>
+      <p>₹2000</p>
+    </div>
+<div class="product">
+      <img src="https://storage.googleapis.com/shy-pub/343885/SKU-1961_0-1715486248774.jpg">
+      <h3>Dressess</h3>
+      <h2>SHIRTS</h2>
+      <p>₹599</p>
+    </div>
+    <div class="product">
+      <img src="https://tse4.mm.bing.net/th/id/OIP.BzE616RXkfx6_cZjYD5OjwHaHa?pid=Api&P=0&h=180">
+      <h3>DRESSESS</h3>
+      <h2>frocks</h2>
+      <p>₹399</p>
+    </div>
+<div class="product">
+      <img src="https://i.pinimg.com/736x/67/35/05/673505bce983352547ee3f849e3cfbc5.jpg">
+      <h3>DRESSESS</h3>
+      <h2>BRIDAL WEARS</h2>
+      <p>₹39,000</p>
+    </div>
+</div>
+ <div class="l">
+            <footer class="f">
+                <h5>cartify-your friend's shop</h5>
+                <h2>Follow for More Updates: Instagram 📷|Facebook 😀|Watsap group 📲</h2>
+                </footer>
+                <h3 class="center">CARITFY copyrights @2025</h3>
+            </div>
+
+  <script>
+
+    function searchProduct() {
+
+      let input = document.getElementById("searchInput").value.toLowerCase();
+
+      let products = document.getElementsByClassName("product");
+
+      for(let i = 0; i < products.length; i++) {
+
+        let productName = products[i]
+          .getElementsByTagName("h3")[0]
+          .innerText.toLowerCase();
+
+        if(productName.includes(input)) {
+          products[i].style.display = "block";
+        }
+        else {
+          products[i].style.display = "none";
+        }
+
+      }
+
+    }
+
+  </script>
+
+</body>
+</html>
